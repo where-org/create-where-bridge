@@ -1,0 +1,11 @@
+services:
+  where-bridge:
+    container_name: where-bridge
+    build: .
+    image: where-bridge
+    restart: unless-stopped
+
+    # for development
+    #
+    # volumes:
+    #   - ./config:/app/config

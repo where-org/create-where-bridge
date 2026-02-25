@@ -1,0 +1,16 @@
+{
+  "name": "where-bridge",
+  "description": "Enter your project description here",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "where-bridge": "./bin/where-bridge.js"
+  },
+  "scripts": {
+    "start": "NODE_ENV=$npm_config_mode node ./bin/where-bridge.js ./config",
+    "dev": "NODE_ENV=$npm_config_mode node --watch ./bin/where-bridge.js ./config"
+  },
+  "dependencies": {
+  }
+}
