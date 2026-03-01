@@ -1,6 +1,6 @@
 {
   "name": "create-where-bridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffold a new where-bridge project",
   "license": "MIT",
   "author": "Masafumi Sasahara <masafumi@sashara.io> (https://github.com/masafumi-sasahara/)",
@@ -13,6 +13,9 @@
   "bin": {
     "create-where-bridge": "index.js"
   },
+  "keywords": [
+    "where-bridge"
+  ],
   "dependencies": {
     "fs-extra": "^11.1.1",
     "prompts": "^2.4.2"
