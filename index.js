@@ -52,6 +52,7 @@ const main = async () => {
   console.log(`
   cd ${packageName}
   npm i
+  # Before starting, install the required where-bridge-app modules and edit config/bridge-app.yaml.
   npm start`);
 
 };
